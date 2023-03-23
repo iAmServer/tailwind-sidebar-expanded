@@ -1,0 +1,34 @@
+{
+  "name": "tailwind-sidebar-expanded",
+  "version": "1.0.0",
+  "description": "Tailwind sidebar expanded variant",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite ./playground"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAmServer/tailwind-sidebar-expanded.git"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "scrollbar"
+  ],
+  "author": "iAmServer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iAmServer/tailwind-sidebar-expanded/issues"
+  },
+  "homepage": "https://github.com/iAmServer/tailwind-sidebar-expanded#readme",
+  "devDependencies": {
+    "autoprefixer": "10.2.4",
+    "postcss": "8.2.5",
+    "tailwindcss": "2.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
