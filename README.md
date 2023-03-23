@@ -3,8 +3,6 @@
 Tailwind plugin for sidebar expandable.
 
 [![npm](https://img.shields.io/npm/v/tailwind-sidebar-expanded)](https://www.npmjs.com/package/tailwind-sidebar-expanded)
-![npm](https://img.shields.io/npm/dt/tailwind-sidebar-expanded)
-![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/tailwind-sidebar-expanded?0)
 
 ## Installation
 
@@ -41,7 +39,7 @@ module.exports = {
 Use in you template `sidebar-expanded`
 
 ```html
-<div class="w-4 sidebar-expanded:md:bg-black">...</div>
+<div class="w-4 md:sidebar-expanded:hidden">...</div>
 ```
 
 ## License
